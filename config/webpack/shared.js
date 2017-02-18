@@ -32,6 +32,10 @@ config = {
           presets: [
             'react',
             [ 'latest', { 'es2015': { 'modules': false } } ]
+          ],
+          plugins: [
+            'transform-decorators-legacy',
+            'transform-object-rest-spread'
           ]
         }
       },
