@@ -7,6 +7,10 @@ export default class NewGame extends React.Component {
   render() {
     const { dispatch } = this.props
 
-    return <button type="button" onClick={() => dispatch(newGame)}>New Game</button>
+    return (
+      <div className="new-game-button">
+        <button type="button" onClick={() => dispatch(newGame)}>New Game</button>
+      </div>
+    )
   }
 }

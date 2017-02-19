@@ -1,3 +1,32 @@
-// Place all the styles related to the scoreboard controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+body, html, #scoreboard {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.app, .game, .player {
+  height: 100%;
+}
+
+.new-game-button {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.player {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.score {
+  font-size: 30em;
+}
